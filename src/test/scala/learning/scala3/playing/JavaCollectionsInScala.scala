@@ -1,10 +1,11 @@
-package learning.scala3
+package learning.scala3.playing
 
-import org.scalatest.wordspec.AnyWordSpec
+import learning.scala3.playing.JavaClass
 import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-import scala.jdk.OptionConverters.*
-import scala.jdk.CollectionConverters.*
+import scala.jdk.OptionConverters.RichOptional
+import scala.jdk.CollectionConverters._
 
 class JavaCollectionsInScala extends AnyWordSpec, Matchers:
 

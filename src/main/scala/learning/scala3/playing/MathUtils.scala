@@ -1,4 +1,4 @@
-package learning.scala3
+package learning.scala3.playing
 
 object MathUtils:
   def double(i: Int): Int = i * i

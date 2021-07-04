@@ -1,4 +1,8 @@
-package learning.scala3;
+package learning.scala3.playing;
+
+import learning.scala3.playing.AlternativeNames;
+import learning.scala3.playing.ScalaObject;
+import learning.scala3.playing.Varargs;
 
 import java.util.Optional;
 import static scala.jdk.javaapi.OptionConverters.toJava;

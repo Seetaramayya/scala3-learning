@@ -1,7 +1,8 @@
-package learning.scala3
+package learning.scala3.playing
 
-import org.scalatest.wordspec.AnyWordSpec
+import learning.scala3.playing.MathUtils
 import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
 class MathUtilsSpec extends AnyWordSpec, Matchers:
   "Math Utils double" should {

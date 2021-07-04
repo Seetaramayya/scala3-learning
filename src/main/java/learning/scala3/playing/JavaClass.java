@@ -1,4 +1,4 @@
-package learning.scala3;
+package learning.scala3.playing;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -9,8 +9,8 @@ public class JavaClass {
         return new ArrayList<String>(List.of("a", "b", "c"));
     }
 
-    static Optional<String> oString = Optional.of("foo");
-    static Optional<String> oEmptyString = Optional.empty();
+    public static Optional<String> oString = Optional.of("foo");
+    public static Optional<String> oEmptyString = Optional.empty();
 }
 
 interface Animal {

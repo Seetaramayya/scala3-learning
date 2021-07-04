@@ -1,4 +1,4 @@
-package learning.scala3
+package learning.scala3.playing
 
 import scala.annotation.targetName
 
