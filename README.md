@@ -12,10 +12,13 @@ For more information on the sbt-dotty plugin, see the
 - [Free form of exploring](FreePlaying.md)
 
 
-
-### Bugs I found when I am reading the doc 
+### Bugs I found when I am reading the scala doc 
 
 - [Java alternative name is not generated with `@alpha` annotation but with `@targetName` generated](https://docs.scala-lang.org/scala3/book/interacting-with-java.html)
+
+### Not compatible
+
+- [scalafmt](https://github.com/scalameta/sbt-scalafmt) is not yet supporting scala 3.0.0
 
 ### Resources
 [Scala3 documentation](https://docs.scala-lang.org/scala3/)
