@@ -26,4 +26,16 @@
 - With `@main` annotation can be specified main method
 - `scala.jdk` contains different kind of converters between java and scala, such as collections, option <-> optional, future <-> completable future etc..
 - Java interfaces can be used directly in scala
-      
+
+
+## Control Structures
+
+- `if <condition> then <body> else <body>` introduced in scala3 (parentheses are removed and `do` added)
+- `for <generator with filters> do <body>` introduced in scala3 (parentheses are removed and `do` added)
+- `while <condition> do <body>` introduced in scala3 (parentheses are removed and `do` added)
+- `match` `try/catch/finally` are not modified much, they are like scala2
+
+
+## Resources 
+
+- [Control Structures](https://docs.scala-lang.org/scala3/book/taste-control-structures.html)
